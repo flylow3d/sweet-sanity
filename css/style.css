@@ -116,7 +116,7 @@ nav.main a.cta:hover { background: #23745a; color: #fff; }
   content: ""; position: absolute; inset: 0; z-index: -1;
   background: linear-gradient(180deg, rgba(60,25,35,0.18) 0%, rgba(60,25,35,0.05) 40%, rgba(45,18,26,0.78) 100%);
 }
-.hero-inner { padding: 5.5rem 0 3.2rem; width: 100%; }
+.hero-inner { padding-top: 5.5rem; padding-bottom: 3.2rem; width: 100%; }
 .hero .kicker {
   display: inline-block; background: var(--pink);
   color: #fff; font-weight: 800; font-size: 0.82rem;
@@ -134,7 +134,7 @@ nav.main a.cta:hover { background: #23745a; color: #fff; }
 }
 .hero .btns { display: flex; gap: 0.8rem; flex-wrap: wrap; margin-bottom: 1rem; }
 .hero--page { min-height: 44vh; }
-.hero--page .hero-inner { padding: 4rem 0 2.4rem; }
+.hero--page .hero-inner { padding-top: 4rem; padding-bottom: 2.4rem; }
 
 /* ---------- buttons ---------- */
 .btn {
